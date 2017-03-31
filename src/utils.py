@@ -202,15 +202,14 @@ def index_a_project(envs, restart = True):
 	if copy_war(tempdir, tomdir, ppath) == False:
 		print "Copying source.war failed"
 		return False
-	if restart:
-		start_stop_server(envs, 'stop')
-		start_stop_server(envs, 'start')
+
 	if index_og(envs) == True:
 		if restart:
 			start_stop_server(envs, 'stop')
 			start_stop_server(envs, 'start')
 		return True
 	else:
+		start_stop_server(envs, 'stop')
 		return False
 
 def validate_path(envs):
