@@ -21,10 +21,10 @@ if 'Windows' in platform.platform():
 					   'extract_dir' : 'apache-tomcat-9.0.0.M15',
 					   'bin_file': '.bat'
 					  },
-		'opengrok' : { 'file_name' : 'opengrok-0.13-rc5.tar.gz',
-					   'file_size': 16113249,
+		'opengrok' : { 'file_name' : 'opengrok-1.3.1.tar.gz',
+					   'file_size': 48057315,
 					   'extract_path': 'script_path',
-					   'extract_dir' : 'opengrok-0.13-rc5',
+					   'extract_dir' : 'opengrok-1.3.1',
 					   'bin_file': 'opengrok.jar'
 					  },
 		'jre': { 'file_name' : 'jre-8u121-windows-i586.tar.gz',
@@ -34,7 +34,7 @@ if 'Windows' in platform.platform():
 				 'bin_file': 'java.exe'
 				},
 		'ctags': { 'file_name' : 'exuberant-ctags.zip',
-				   'file_size': 571849,
+				   'file_size': 2171942,
 				   'extract_path': 'script_path',
 				   'extract_dir' : 'ctags58',
 				   'bin_file': 'ctags.exe'
@@ -48,10 +48,10 @@ if 'Windows' in platform.platform():
 					   'extract_dir' : 'apache-tomcat-9.0.0.M15',
 					   'bin_file': '.bat'
 					  },
-		'opengrok' : { 'file_name' : 'opengrok-0.13-rc5.tar.gz',
-					   'file_size': 16113249,
+		'opengrok' : { 'file_name' : 'opengrok-1.3.1.tar.gz',
+					   'file_size': 48057315,
 					   'extract_path': 'script_path',
-					   'extract_dir' : 'opengrok-0.13-rc5',
+					   'extract_dir' : 'opengrok-1.3.1',
 					   'bin_file': 'opengrok.jar'
 					  },
 		'jre': { 'file_name' : 'jre-8u121-windows-x64.tar.gz',
@@ -61,7 +61,7 @@ if 'Windows' in platform.platform():
 				 'bin_file': 'java.exe'
 				},
 		'ctags': { 'file_name' : 'exuberant-ctags.zip',
-				   'file_size': 571849,
+				   'file_size': 2171942,
 				   'extract_path': 'script_path',
 				   'extract_dir' : 'ctags58',
 				   'bin_file': 'ctags.exe'

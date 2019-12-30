@@ -314,7 +314,8 @@ def index_og(envs):
 	src = convert_to_os_path(envs['ppath'])
 	data = convert_to_os_path(get_temp_dir(envs)+"/data")
 	webapp = os.path.basename(envs['ppath'])
-	cmd = java+" -jar "+opengrok+" -W "+config+" -a on -L default -H -i *.map -i *.objdump -i *.zip -i *.ld* -i *.o -i *.lnk -T 3 -t 4 -c "+ctags+" -P -S -s "+src+" -d "+data+" -w "+webapp +" -O on -Q on"
+	#cmd = java+" -jar "+opengrok+" -W "+config+" -a on -L default -H -i *.map -i *.objdump -i *.zip -i *.ld* -i *.o -i *.lnk -T 3 -t 4 -c "+ctags+" -P -S -s "+src+" -d "+data+" -w "+webapp +" -O on -Q on"
+	cmd = java+" -jar "+opengrok+" -W "+config+" --leadingWildCards on --style default -H -i *.map -i *.objdump -i *.zip -i *.ld* -i *.o -i *.lnk -T 3 -t 4 -c "+ctags+" -P -S -s "+src+" -d "+data+" -O on -Q on"
 	try:
 		os.system(cmd)
 		return True
