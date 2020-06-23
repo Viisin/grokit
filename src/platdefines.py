@@ -21,10 +21,10 @@ if 'Windows' in platform.platform():
 					   'extract_dir' : 'apache-tomcat-9.0.0.M15',
 					   'bin_file': '.bat'
 					  },
-		'opengrok' : { 'file_name' : 'opengrok-1.3.6.tar.gz',
-					   'file_size': 53600922,
+		'opengrok' : { 'file_name' : 'opengrok-1.3.16.tar.gz',
+					   'file_size': 55244095,
 					   'extract_path': 'script_path',
-					   'extract_dir' : 'opengrok-1.3.6',
+					   'extract_dir' : 'opengrok-1.3.16',
 					   'bin_file': 'opengrok.jar'
 					  },
 		'jre': { 'file_name' : 'jre-8u121-windows-i586.tar.gz',
@@ -48,10 +48,10 @@ if 'Windows' in platform.platform():
 					   'extract_dir' : 'apache-tomcat-9.0.0.M15',
 					   'bin_file': '.bat'
 					  },
-		'opengrok' : { 'file_name' : 'opengrok-1.3.6.tar.gz',
-					   'file_size': 53600922,
+		'opengrok' : { 'file_name' : 'opengrok-1.3.16.tar.gz',
+					   'file_size': 55244095,
 					   'extract_path': 'script_path',
-					   'extract_dir' : 'opengrok-1.3.6',
+					   'extract_dir' : 'opengrok-1.3.16',
 					   'bin_file': 'opengrok.jar'
 					  },
 		'jre': { 'file_name' : 'jre-8u121-windows-x64.tar.gz',
